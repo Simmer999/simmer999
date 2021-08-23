@@ -1,0 +1,277 @@
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    }
+html, body {
+    height: 100%;
+    width: 100vw;
+}
+
+#button-container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+/* //=================================================== */
+/* //=================================================== */
+/* //=================================================== */
+/* //=============== NAKOTA PAGE ======================= */
+/* //=================================================== */
+/* //=================================================== */
+/* //=================================================== */
+/* //=================================================== */
+
+                                    #nakota {
+                                        background-color: darkred;
+                                        height: 100%;
+                                        width: 100%;
+                                    }
+                                        
+                                    #mapid {
+                                        display: flex;
+                                        height: 70%;
+                                        width: 80%;
+                                        margin: 0;
+                                        position: absolute;
+                                        top: 15%;
+                                        left: 10%;
+                                    }
+/* //===============Nakota Legend ================= */
+/* //===============Nakota Legend ================= */
+/* //===============Nakota Legend ================= */
+/* //===============Nakota Legend ================= */
+/* //===============Nakota Legend ================= */
+/* //===============Nakota Legend ================= */
+/* //===============Nakota Legend ================= */
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+/*=========================== header and footer */
+/*=========================== header and footer */
+/*=========================== header and footer */
+/*=========================== header and footer */
+/*=========================== header and footer */
+/*=========================== header and footer */
+/*=========================== header and footer */
+                        footer {
+                            justify-content: space-around;
+                            display: flex;
+                            background: #000;
+                            color: #fff;
+                            position: fixed;
+                            height: 5%;
+                            width: 100%;
+                            bottom: 0;
+                            font-size: 1.0rem;
+                        }
+
+                        footer a {
+                            color: white;
+                            margin: auto 0px;
+                            text-decoration: none;
+                        }
+
+                        header {
+                            justify-content: space-around;
+                            display: flex;
+                            background: #000;
+                            color: #fff;
+                            position: fixed;
+                            height: 5%;
+                            width: 100%;
+                            top: 0;
+                            font-size: 1.0rem;
+                        }
+                        header a {
+                            color: white;
+                            margin: auto 0px;
+                            text-decoration: none;
+                        }
+
+/* //=================================================== */
+/* //=================================================== */
+/* //=================================================== */
+/* //=============== GRID CONTAINER ==================== */
+/* //=================================================== */
+/* //=================================================== */
+/* //=================================================== */
+/* //=================================================== */
+
+#d_board {
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    background-color: coral;
+    height: 95%;
+    width: 100%;
+    margin: auto;
+}
+
+#grid-container_FrontPage {
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    height: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30% 30% 20% 20%;
+    grid-template-areas: 
+    "hero hero hero hero hero hero"
+    "hero hero hero hero hero hero"
+    "symbol_1 symbol_2 symbol_3 symbol_4 symbol_5 symbol_6"
+    "symbol_7 symbol_8 symbol_9 symbol_10 symbol_11 symbol_12";
+    }
+
+#hero  {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    grid-area: hero;
+}
+
+#bigBoldClaim {
+    position: relative;
+    left:  calc(50% - 150px);
+    top: calc(50% - 25px);
+    height: 50px;
+    width: 300px;
+    font-weight: bolder;
+}
+
+#symbol_1 {
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    grid-area: symbol_1;
+}
+
+#symbol_2 {
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+
+    grid-area: symbol_2;
+}
+
+#symbol_3 {
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    grid-area: symbol_3;
+}
+
+#symbol_4 {
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+
+    grid-area: symbol_4;
+}
+
+#symbol_5 {
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    grid-area: symbol_5;
+}
+
+#symbol_6 {
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+
+    grid-area: symbol_6;
+}
+
+#symbol_7 {
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    grid-area: symbol_7;
+}
+
+#symbol_8 {
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    grid-area: symbol_8;
+}
+
+#symbol_9 {
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    grid-area: symbol_9;
+}
+
+#symbol_10 {
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    grid-area: symbol_10;
+}
+
+#symbol_11 {
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    grid-area: symbol_11;
+}
+
+#symbol_12 {
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    grid-area: symbol_12;
+}
+
+/* ==================================================
+=====================================================
+====================== Menu =========================
+=====================================================
+=====================================================
+===================================================== */
+
+.menu {
+    height: 20px;
+    width: 100px;
+    text-decoration: none;
+}
+
+.active {
+    height: 20px;
+    width: 100px;
+    background-color: chartreuse;
+
+}
+
+button a {
+    text-decoration: none;
+}
