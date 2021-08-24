@@ -19,4 +19,8 @@ router.get('/FrontPage', (req, res) => {
     res.render('FrontPage')
 })
 
+// router.get('/Three', (req, res) => {
+//     res.render('Three')
+// })
+
 module.exports = router

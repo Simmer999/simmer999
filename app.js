@@ -25,6 +25,8 @@ app.use(express.urlencoded({ extended: false }))
 app.use(express.static(path.join(__dirname, 'public')))
 
 const routes = require('./routes/routes')
+// const main = require('./main')
 app.use('/', routes)
+// app.use('/', main)
 
 module.exports = app

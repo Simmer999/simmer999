@@ -133,6 +133,16 @@ html, body {
     margin: auto;
 }
 
+#three_board {
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    /* background-color: darkcyan; */
+    height: 95%;
+    width: 100%;
+    margin: auto;
+}
+
 #grid-container_FrontPage {
     position: relative;
     padding: 0px 0px 0px 0px;
